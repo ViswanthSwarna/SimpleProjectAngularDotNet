@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Y4THwLSMyaN9hc9JDgGrzIfdZC249HAzIcxO7Lw5iuQ=",
+  "Source": "CandidateTracker.Api",
+  "BasePath": "_content/CandidateTracker.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

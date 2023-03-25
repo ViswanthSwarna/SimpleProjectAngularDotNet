@@ -1,0 +1,18 @@
+<p>candidate-list</p>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Resume</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+    </tr>
+    <tr *ngFor="let candidate of candidateList">
+        <th>{{candidate.name}}</th>
+        <th>{{candidate.address}}</th>
+        <th>{{candidate.resume}}</th>
+        <th>{{candidate.phoneNumber}}</th>
+        <th>{{candidate.email}}</th>
+    </tr>
+</table>
