@@ -1,18 +1,57 @@
-<p>candidate-list</p>
-
-<table>
-    <tr>
-        <th>Name</th>
-        <th>Address</th>
-        <th>Resume</th>
-        <th>Phone Number</th>
-        <th>Email</th>
-    </tr>
-    <tr *ngFor="let candidate of candidateList">
-        <th>{{candidate.name}}</th>
-        <th>{{candidate.address}}</th>
-        <th>{{candidate.resume}}</th>
-        <th>{{candidate.phoneNumber}}</th>
-        <th>{{candidate.email}}</th>
-    </tr>
+<div class="d-flex flex-column align-items-center form-group">
+  Only show experience greater than
+  <p></p>
+  <input (change)="filterByExperience($event)" type="number" />
+  <p></p>
+<table class="align-items-center table table-striped">
+  <thead>
+  <tr>
+    <th>No.</th>
+    <th>Name</th>
+    <th>Experience</th>
+    <th>Address</th>
+    <th>Resume</th>
+    <th>Phone Number</th>
+    <th>Email</th>
+    <th>Action</th>
+  </tr>
+</thead>
+<tbody>
+  <tr *ngFor="let candidate of candidateList$ |async ; let i = index">
+    <td>{{i+1}}</td>
+    <td>{{ candidate.name }}</td>
+    <td>{{ candidate.experience }}</td>
+    <td>{{ candidate.address }}</td>
+    <td>
+      <button class = "btn link-primary btn-sm m-1" (click)="downloadResume(candidate.resumeId)">Download</button>    
+    </td>
+    <td>{{ candidate.phoneNumber }}</td>
+    <td>{{ candidate.email }}</td>
+    <td>
+      <button class = "btn btn-primary btn-sm m-1" [routerLink]="['/candidate',candidate.candidateId]">Edit</button>
+      <button class = "btn btn-primary btn-sm m-1" (click)="openDeleteModal(candidate.candidateId)">Delete</button>
+    </td>
+  </tr>
+</tbody>
 </table>
+</div>
+<button [routerLink]="['/candidate']" class = "btn btn-primary float-right">Add</button>
+
+<div id="modal-delete" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Delete Candidate</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"  aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Are you sure you want to delete the candidate information ?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" (click)="delete()">Yes</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+        </div>
+      </div>
+    </div>
+  </div>

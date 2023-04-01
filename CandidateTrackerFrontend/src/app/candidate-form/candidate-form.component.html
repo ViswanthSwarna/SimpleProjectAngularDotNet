@@ -1,0 +1,25 @@
+<form class="card p-5" [formGroup]="candidateForm" (ngSubmit)="onSubmit(candidateForm)">
+  Name :
+  <input class="form-control" type="text" formControlName="name" />
+  <p></p>
+  Experience :
+  <input class="form-control" type="text" formControlName="experience" />
+  <p></p>
+  Address :
+  <input class="form-control" type="text" formControlName="address" />
+  <p></p>
+  Phone Number :
+  <input class="form-control" type="text" formControlName="phoneNumber" />
+  <p></p>
+  Email :
+  <input class="form-control" type="text" formControlName="email" />
+  <p></p>
+  Resume :
+  <div class="d-flex flex-column">
+  <input (change)="upload($event)" class="form-control" type="file" accept=".pdf" />
+  <h6>{{uploadedText}}</h6>
+  </div>
+  <p></p>
+  <span class ="error-message p-1" *ngIf = "candidateForm.invalid">Please fill all the fields</span>
+  <button class = "btn btn-primary" [disabled]="candidateForm.invalid" type="submit">Save</button>
+</form>

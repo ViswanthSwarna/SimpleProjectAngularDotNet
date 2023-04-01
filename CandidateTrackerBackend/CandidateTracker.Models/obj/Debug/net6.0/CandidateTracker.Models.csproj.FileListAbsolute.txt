@@ -1,0 +1,12 @@
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\bin\Debug\net6.0\CandidateTracker.Models.deps.json
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\bin\Debug\net6.0\CandidateTracker.Models.dll
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\bin\Debug\net6.0\CandidateTracker.Models.pdb
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\obj\Debug\net6.0\CandidateTracker.Models.csproj.AssemblyReference.cache
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\obj\Debug\net6.0\CandidateTracker.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\obj\Debug\net6.0\CandidateTracker.Models.AssemblyInfoInputs.cache
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\obj\Debug\net6.0\CandidateTracker.Models.AssemblyInfo.cs
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\obj\Debug\net6.0\CandidateTracker.Models.csproj.CoreCompileInputs.cache
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\obj\Debug\net6.0\CandidateTracker.Models.dll
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\obj\Debug\net6.0\refint\CandidateTracker.Models.dll
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\obj\Debug\net6.0\CandidateTracker.Models.pdb
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.Models\obj\Debug\net6.0\ref\CandidateTracker.Models.dll

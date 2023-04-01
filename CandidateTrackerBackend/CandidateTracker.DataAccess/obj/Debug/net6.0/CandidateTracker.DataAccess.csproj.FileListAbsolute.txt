@@ -1,0 +1,17 @@
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\bin\Debug\net6.0\CandidateTracker.DataAccess.deps.json
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\bin\Debug\net6.0\CandidateTracker.DataAccess.runtimeconfig.json
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\bin\Debug\net6.0\CandidateTracker.DataAccess.dll
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\bin\Debug\net6.0\CandidateTracker.DataAccess.pdb
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\bin\Debug\net6.0\CandidateTracker.Entities.dll
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\bin\Debug\net6.0\CandidateTracker.Entities.pdb
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\obj\Debug\net6.0\CandidateTracker.DataAccess.csproj.AssemblyReference.cache
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\obj\Debug\net6.0\CandidateTracker.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\obj\Debug\net6.0\CandidateTracker.DataAccess.AssemblyInfoInputs.cache
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\obj\Debug\net6.0\CandidateTracker.DataAccess.AssemblyInfo.cs
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\obj\Debug\net6.0\CandidateTracker.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\obj\Debug\net6.0\CandidateTracker.DataAccess.csproj.CopyComplete
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\obj\Debug\net6.0\CandidateTracker.DataAccess.dll
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\obj\Debug\net6.0\refint\CandidateTracker.DataAccess.dll
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\obj\Debug\net6.0\CandidateTracker.DataAccess.pdb
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\obj\Debug\net6.0\CandidateTracker.DataAccess.genruntimeconfig.cache
+C:\Users\VISWANTH\Downloads\SimpleProjectAngularDotNet\CandidateTrackerBackend\CandidateTracker.DataAccess\obj\Debug\net6.0\ref\CandidateTracker.DataAccess.dll

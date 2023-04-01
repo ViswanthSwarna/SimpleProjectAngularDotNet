@@ -1,17 +1,193 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VISWANTH\\Downloads\\SimpleProject\\CandidateTrackerBackend\\CandidateTracker.Api.csproj": {}
+    "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VISWANTH\\Downloads\\SimpleProject\\CandidateTrackerBackend\\CandidateTracker.Api.csproj": {
+    "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VISWANTH\\Downloads\\SimpleProject\\CandidateTrackerBackend\\CandidateTracker.Api.csproj",
+        "projectUniqueName": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Api.csproj",
         "projectName": "CandidateTracker.Api",
-        "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProject\\CandidateTrackerBackend\\CandidateTracker.Api.csproj",
+        "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Api.csproj",
         "packagesPath": "C:\\Users\\VISWANTH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProject\\CandidateTrackerBackend\\obj\\",
+        "outputPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VISWANTH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.DataAccess\\CandidateTracker.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.DataAccess\\CandidateTracker.DataAccess.csproj"
+              },
+              "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Models\\CandidateTracker.Models.csproj": {
+                "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Models\\CandidateTracker.Models.csproj"
+              },
+              "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Repository\\CandidateTracker.Repository.csproj": {
+                "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Repository\\CandidateTracker.Repository.csproj"
+              },
+              "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Service\\CandidateTracker.Service.csproj": {
+                "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Service\\CandidateTracker.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.DataAccess\\CandidateTracker.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.DataAccess\\CandidateTracker.DataAccess.csproj",
+        "projectName": "CandidateTracker.DataAccess",
+        "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.DataAccess\\CandidateTracker.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\VISWANTH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VISWANTH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Entities\\CandidateTracker.Entities.csproj": {
+                "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Entities\\CandidateTracker.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Entities\\CandidateTracker.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Entities\\CandidateTracker.Entities.csproj",
+        "projectName": "CandidateTracker.Entities",
+        "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Entities\\CandidateTracker.Entities.csproj",
+        "packagesPath": "C:\\Users\\VISWANTH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VISWANTH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,10 +215,127 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Models\\CandidateTracker.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Models\\CandidateTracker.Models.csproj",
+        "projectName": "CandidateTracker.Models",
+        "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Models\\CandidateTracker.Models.csproj",
+        "packagesPath": "C:\\Users\\VISWANTH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VISWANTH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Repository\\CandidateTracker.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Repository\\CandidateTracker.Repository.csproj",
+        "projectName": "CandidateTracker.Repository",
+        "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Repository\\CandidateTracker.Repository.csproj",
+        "packagesPath": "C:\\Users\\VISWANTH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VISWANTH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.DataAccess\\CandidateTracker.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.DataAccess\\CandidateTracker.DataAccess.csproj"
+              },
+              "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Models\\CandidateTracker.Models.csproj": {
+                "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Models\\CandidateTracker.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "AutoMapper": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[12.0.1, )"
             }
           },
           "imports": [
@@ -57,14 +350,82 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Service\\CandidateTracker.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Service\\CandidateTracker.Service.csproj",
+        "projectName": "CandidateTracker.Service",
+        "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Service\\CandidateTracker.Service.csproj",
+        "packagesPath": "C:\\Users\\VISWANTH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VISWANTH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Entities\\CandidateTracker.Entities.csproj": {
+                "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Entities\\CandidateTracker.Entities.csproj"
+              },
+              "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Models\\CandidateTracker.Models.csproj": {
+                "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Models\\CandidateTracker.Models.csproj"
+              },
+              "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Repository\\CandidateTracker.Repository.csproj": {
+                "projectPath": "C:\\Users\\VISWANTH\\Downloads\\SimpleProjectAngularDotNet\\CandidateTrackerBackend\\CandidateTracker.Repository\\CandidateTracker.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

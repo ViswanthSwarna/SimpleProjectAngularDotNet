@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CandidateTracker.Entities\CandidateTracker.Entities.csproj" />
+    <ProjectReference Include="..\CandidateTracker.Models\CandidateTracker.Models.csproj" />
+    <ProjectReference Include="..\CandidateTracker.Repository\CandidateTracker.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

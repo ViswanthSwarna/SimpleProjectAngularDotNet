@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CandidateTracker.Entities/1.0.0": {
+        "runtime": {
+          "CandidateTracker.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CandidateTracker.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

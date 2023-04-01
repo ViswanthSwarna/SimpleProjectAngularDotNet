@@ -1,9 +1,20 @@
-<nav>
-  <input type = "button" value="Add Candidate" routerLink="/add-candidate"/>
-  <input type = "button" value="Candidate List"  routerLink="/candidate-list"/>
-</nav>
-<br><br/>
-<p></p>
-
-
-<router-outlet></router-outlet>
+<div class="d-flex flex-row justify-content-around">
+    <div></div>
+  <h1 class="text-center text-primary">Candidate Tracker</h1>
+  <div class="mt-3">
+    <input
+    checked
+      class="form-check-input m-1"
+      type="checkbox"
+      value=""
+      id="flexCheckDefault"
+      (change)="changeAdminStatus($event)"
+    />
+    <label class="form-check-label" for="flexCheckDefault">
+      Admin
+    </label>
+  </div>
+</div>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

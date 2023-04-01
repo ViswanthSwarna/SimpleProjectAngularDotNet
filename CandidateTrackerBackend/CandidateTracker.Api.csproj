@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,7 +7,48 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CandidateTracker.Api.Entities\**" />
+    <Compile Remove="CandidateTracker.DataAccess\**" />
+    <Compile Remove="CandidateTracker.Entities\**" />
+    <Compile Remove="CandidateTracker.Models\**" />
+    <Compile Remove="CandidateTracker.Repository\**" />
+    <Compile Remove="CandidateTracker.Service\**" />
+    <Content Remove="CandidateTracker.Api.Entities\**" />
+    <Content Remove="CandidateTracker.DataAccess\**" />
+    <Content Remove="CandidateTracker.Entities\**" />
+    <Content Remove="CandidateTracker.Models\**" />
+    <Content Remove="CandidateTracker.Repository\**" />
+    <Content Remove="CandidateTracker.Service\**" />
+    <EmbeddedResource Remove="CandidateTracker.Api.Entities\**" />
+    <EmbeddedResource Remove="CandidateTracker.DataAccess\**" />
+    <EmbeddedResource Remove="CandidateTracker.Entities\**" />
+    <EmbeddedResource Remove="CandidateTracker.Models\**" />
+    <EmbeddedResource Remove="CandidateTracker.Repository\**" />
+    <EmbeddedResource Remove="CandidateTracker.Service\**" />
+    <None Remove="CandidateTracker.Api.Entities\**" />
+    <None Remove="CandidateTracker.DataAccess\**" />
+    <None Remove="CandidateTracker.Entities\**" />
+    <None Remove="CandidateTracker.Models\**" />
+    <None Remove="CandidateTracker.Repository\**" />
+    <None Remove="CandidateTracker.Service\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="CandidateTracker.DataAccess\CandidateTracker.DataAccess.csproj" />
+    <ProjectReference Include="CandidateTracker.Models\CandidateTracker.Models.csproj" />
+    <ProjectReference Include="CandidateTracker.Repository\CandidateTracker.Repository.csproj" />
+    <ProjectReference Include="CandidateTracker.Service\CandidateTracker.Service.csproj" />
   </ItemGroup>
 
 </Project>

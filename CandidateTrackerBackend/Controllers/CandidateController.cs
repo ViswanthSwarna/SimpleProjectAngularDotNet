@@ -1,28 +1,52 @@
+using CandidateTracker.Models;
+using CandidateTracker.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using System.Text.Json;
 
 namespace CandidateTracker.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class CandidateController : ControllerBase
     {
-        private static List<CandidateModel> candidateModels = new List<CandidateModel>();
-
-
-        [HttpGet,Route("CandidateList")]
-        public IEnumerable<CandidateModel> Get()
+        private readonly ICandidateService _candidateService;
+        public CandidateController(ICandidateService candidateService)
         {
-            return candidateModels.ToArray(); 
+            _candidateService = candidateService;
         }
 
-        [HttpPost, Route("AddCandidate")]
-        public IEnumerable<CandidateModel> Post(Object candidateModel)
+        [HttpGet]
+        public IActionResult GetAll()
         {
-            CandidateModel deserializedCandidateModel =
-                JsonSerializer.Deserialize<CandidateModel>(candidateModel.ToString());
-            candidateModels.Add(deserializedCandidateModel);
-            return candidateModels.ToArray();
+            var candidates= _candidateService.GetCandidates();
+            return Ok(candidates); 
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            var candidate = _candidateService.GetCandidate(id);
+            return Ok(candidate);
+        }
+
+        [HttpPost]
+        public IActionResult Add(CandidateModel candidateModel)
+        {
+            var inserted = _candidateService.AddCandidate(candidateModel);
+            return Ok(inserted);
+        }
+
+        [HttpPut]
+        public IActionResult Update(CandidateModel candidateModel)
+        {
+            var inserted = _candidateService.UpdateCandidate(candidateModel);
+            return Ok(inserted);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var inserted = _candidateService.DeleteCandidate(id);
+            return Ok(inserted);
         }
     }
 }
